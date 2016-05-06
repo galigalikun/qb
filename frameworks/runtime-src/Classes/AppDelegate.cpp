@@ -13,6 +13,10 @@
 #include "ide-support/RuntimeLuaImpl.h"
 #endif
 
+#ifdef SDKBOX_ENABLED
+#include "PluginFlurryAnalyticsLua.hpp"
+#include "PluginFlurryAnalyticsLuaHelper.h"
+#endif
 using namespace CocosDenshion;
 
 USING_NS_CC;
@@ -48,6 +52,10 @@ void AppDelegate::initGLContextAttrs()
 // don't modify or remove this function
 static int register_all_packages()
 {
+#ifdef SDKBOX_ENABLED
+    register_all_PluginFlurryAnalyticsLua(LuaEngine::getInstance()->getLuaStack()->getLuaState());
+    register_all_PluginFlurryAnalyticsLua_helper(LuaEngine::getInstance()->getLuaStack()->getLuaState());
+#endif
     return 0; //flag for packages manager
 }
 
