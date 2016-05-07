@@ -31,6 +31,11 @@
 #import "RootViewController.h"
 #import "platform/ios/CCEAGLView-ios.h"
 
+
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+
+
 @implementation AppController
 
 #pragma mark -
@@ -41,6 +46,9 @@ static AppDelegate s_sharedApplication;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [Fabric with:@[[Crashlytics class]]];
+
 
     cocos2d::Application *app = cocos2d::Application::getInstance();
     app->initGLContextAttrs();
