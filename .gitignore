@@ -15,10 +15,14 @@ gdb.setup
 .idea/tasks.xml
 .idea/libraries/
 
-
+# cocos2d-x
 frameworks/runtime-src/proj.android-studio/app/obj/
 frameworks/runtime-src/proj.android-studio/app/assets/
 frameworks/runtime-src/proj.android-studio/app/libs/
 frameworks/cocos2d-x/cocos/platform/android/libcocos2dx/build/
 simulator/
 publish/
+
+
+# cocosstudio
+*.udf
