@@ -1,4 +1,24 @@
+buildscript {
+  repositories {
+    jcenter()
+    maven { url 'https://maven.fabric.io/public' }
+  }
+  dependencies {
+    classpath 'com.android.tools.build:gradle:2.1.0'
+    // The Fabric Gradle plugin uses an open ended version to react
+    // quickly to Android tooling updates
+    classpath 'io.fabric.tools:gradle:1.+'
+  }
+}
+
 apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+  jcenter()
+    maven { url 'https://maven.fabric.io/public' }
+}
+
 
 android {
     compileSdkVersion 22
@@ -6,10 +26,10 @@ android {
 
     defaultConfig {
         applicationId "biz.xperia.qb"
-        minSdkVersion 10
-        targetSdkVersion 22
+        minSdkVersion 15
+        targetSdkVersion 23
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
     }
 
     sourceSets.main {
@@ -39,7 +59,22 @@ android {
     }
 }
 
+crashlytics {
+  enableNdk true
+  androidNdkOut 'obj'
+  androidNdkLibsOut 'libs'
+}
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':libcocos2dx')
+
+    // Crashlytics Kit
+    compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
+        transitive = true
+    }
+    // NDK Kit
+    compile('com.crashlytics.sdk.android:crashlytics-ndk:1.1.2@aar') {
+        transitive = true
+    }
 }

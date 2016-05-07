@@ -48,6 +48,10 @@ import android.util.Log;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import io.fabric.sdk.android.Fabric;
+import com.crashlytics.android.Crashlytics;
+import com.crashlytics.android.ndk.CrashlyticsNdk;
+
 
 public class AppActivity extends Cocos2dxActivity{
 
@@ -55,6 +59,8 @@ public class AppActivity extends Cocos2dxActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Fabric.with(this, new Crashlytics(), new CrashlyticsNdk());
         
         if(nativeIsLandScape()) {
             setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE);

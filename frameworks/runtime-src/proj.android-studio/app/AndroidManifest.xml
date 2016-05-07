@@ -9,6 +9,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="io.fabric.ApiKey" android:value="19cc939f8fa307ff99b5e8475c345268a9b9a7cc" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
