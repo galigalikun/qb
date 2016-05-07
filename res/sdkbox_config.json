@@ -3,39 +3,39 @@
         "FlurryAnalytics": {
             "Origin": [
                 {
-                    "OriginName": "sdkbox", 
+                    "OriginName": "sdkbox",
                     "OriginParams": {
-                        "Key3": "Val3", 
-                        "Key2": "Val2", 
+                        "Key3": "Val3",
+                        "Key2": "Val2",
                         "Key1": "Val1"
-                    }, 
+                    },
                     "OriginVersion": "v0.1"
-                }, 
+                },
                 {
-                    "OriginName": "sdkbox", 
+                    "OriginName": "sdkbox",
                     "OriginVersion": "v0.1"
                 }
-            ], 
-            "APIKey": "NPGG5X29SSWM4GXK6HFN", 
-            "DefLocationLat": 104.06, 
-            "Level": 2, 
-            "AppVersion": "V0.1", 
-            "Pulse": true, 
-            "LocationReport": true, 
-            "DefLocationLon": 30.67, 
-            "LogEvent": true, 
-            "SessionTimeout": 10, 
-            "CrashReport": true, 
+            ],
+            "APIKey": "87MVBZT78MJCPFXQNK3W",
+            "DefLocationLat": 104.06,
+            "Level": 2,
+            "AppVersion": "V0.1",
+            "Pulse": true,
+            "LocationReport": true,
+            "DefLocationLon": 30.67,
+            "LogEvent": true,
+            "SessionTimeout": 10,
+            "CrashReport": true,
             "Debug": false
         }
-    }, 
+    },
     "ios": {
         "FlurryAnalytics": {
-            "APIKey": "DYWCHGR5K8M5FQNXZ49Y", 
-            "Level": 2, 
-            "AppVersion": "V0.1", 
-            "SessionTimeout": 10, 
-            "CrashReport": true, 
+            "APIKey": "4QKNMWZ79RKNJT5C6GMT",
+            "Level": 2,
+            "AppVersion": "V0.1",
+            "SessionTimeout": 10,
+            "CrashReport": true,
             "Debug": false
         }
     }

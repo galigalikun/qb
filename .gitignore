@@ -26,3 +26,8 @@ publish/
 
 # cocosstudio
 *.udf
+
+
+# resource
+res/
+!res/sdkbox_config.json
