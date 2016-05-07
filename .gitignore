@@ -9,6 +9,12 @@ local.properties
 gdbserver
 gdb.setup
 
+# android-studio
+*.iml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries/
+
 
 frameworks/runtime-src/proj.android-studio/app/obj/
 frameworks/runtime-src/proj.android-studio/app/assets/
