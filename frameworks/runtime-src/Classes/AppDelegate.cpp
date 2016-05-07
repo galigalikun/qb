@@ -84,6 +84,11 @@ bool AppDelegate::applicationDidFinishLaunching()
     auto runtimeEngine = RuntimeEngine::getInstance();
     runtimeEngine->addRuntime(RuntimeLuaImpl::create(), kRuntimeEngineLua);
     runtimeEngine->start();
+#elif (COCOS2D_DEBUG > 0)
+    if (engine->executeScriptFile("src/debug/main.lua"))
+    {
+        return false;
+    }
 #else
     if (engine->executeScriptFile("src/main.lua"))
     {
