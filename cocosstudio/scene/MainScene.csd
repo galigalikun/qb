@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.0000" />
             <PreSize X="1.2800" Y="0.4798" />
-            <FileData Type="Normal" Path="HelloWorld.png" Plist="" />
+            <FileData Type="Normal" Path="img/HelloWorld.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Text_1" ActionTag="-1135462258" Tag="3" IconVisible="False" LeftMargin="27.0000" RightMargin="631.0000" TopMargin="987.5000" BottomMargin="323.5000" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
@@ -75,14 +75,14 @@
             <PrePosition X="0.1013" Y="0.0652" />
             <PreSize X="0.1147" Y="0.0172" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_1" ActionTag="936874470" Tag="8" IconVisible="False" LeftMargin="46.0000" RightMargin="658.0000" TopMargin="1031.0000" BottomMargin="267.0000" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
-            <Size X="46.0000" Y="36.0000" />
+          <AbstractNodeData Name="Button_1" ActionTag="936874470" Tag="8" IconVisible="False" LeftMargin="228.0001" RightMargin="221.9999" TopMargin="883.9999" BottomMargin="350.0002" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+            <Size X="300.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="69.0000" Y="285.0000" />
+            <Position X="378.0001" Y="400.0002" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.0920" Y="0.2136" />
-            <PreSize X="0.0613" Y="0.0270" />
+            <PrePosition X="0.5040" Y="0.2999" />
+            <PreSize X="0.4000" Y="0.0750" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
             <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />

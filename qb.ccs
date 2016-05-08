@@ -3,8 +3,13 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Image Name="HelloWorld.png" />
-        <Project Name="MainScene.csd" Type="Scene" />
+        <Folder Name="scene">
+          <Project Name="MainScene.csd" Type="Scene" />
+          <Project Name="GameScene.csd" Type="Scene" />
+        </Folder>
+        <Folder Name="img">
+          <Image Name="HelloWorld.png" />
+        </Folder>
       </RootFolder>
     </Group>
   </SolutionFolder>
