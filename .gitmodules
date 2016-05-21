@@ -1,0 +1,3 @@
+[submodule "src/packages/promises"]
+	path = src/packages/promises
+	url = https://github.com/zserge/lua-promises.git
