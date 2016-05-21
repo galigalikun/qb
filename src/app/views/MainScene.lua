@@ -9,12 +9,14 @@ function MainScene:onCreate()
     root:getChildByName("Text_1"):getVirtualRenderer():setLineHeight(20)
 
     local xhr = cc.XMLHttpRequest:new()
-    xhr.responseType = cc.XMLHTTPREQUEST_RESPONSE_BLOB
+    xhr.responseType = cc.XMLHTTPREQUEST_RESPONSE_JSON
     xhr:setRequestHeader("User-Agent", "todo")
-    xhr:open("GET", "https://www.google.co.jp")
+    xhr:open("GET", "https://api.github.com/")
     xhr:registerScriptHandler(function()
         dump(xhr)
         if xhr.readyState == 4 and (xhr.status >= 200 and xhr.status < 207) then
+            local obj = json.decode(xhr.response)
+            dump(obj)
         end
         xhr:unregisterScriptHandler()
     end)
