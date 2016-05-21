@@ -3,12 +3,15 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Folder Name="scene">
-          <Project Name="MainScene.csd" Type="Scene" />
-          <Project Name="GameScene.csd" Type="Scene" />
-        </Folder>
         <Folder Name="img">
           <Image Name="HelloWorld.png" />
+        </Folder>
+        <Folder Name="scene">
+          <Project Name="GameScene.csd" Type="Scene" />
+          <Project Name="MainScene.csd" Type="Scene" />
+        </Folder>
+        <Folder Name="font">
+          <TTF Name="ipag.ttf" />
         </Folder>
       </RootFolder>
     </Group>

@@ -17,14 +17,15 @@
             <FileData Type="Normal" Path="img/HelloWorld.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Text_1" ActionTag="-1135462258" Tag="3" IconVisible="False" LeftMargin="27.0000" RightMargin="631.0000" TopMargin="987.5000" BottomMargin="323.5000" FontSize="20" LabelText="Text Label" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="TextObjectData">
-            <Size X="92.0000" Y="23.0000" />
+          <AbstractNodeData Name="Text_1" ActionTag="-1135462258" Tag="3" IconVisible="False" LeftMargin="62.0000" RightMargin="398.0000" TopMargin="990.0000" BottomMargin="264.0000" FontSize="36" LabelText="Text Label&#xA;aaaaaaaaaaadffff" TouchScaleChangeAble="True" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+            <Size X="290.0000" Y="80.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="73.0000" Y="335.0000" />
+            <Position X="207.0000" Y="304.0000" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.0973" Y="0.2511" />
-            <PreSize X="0.1227" Y="0.0172" />
+            <PrePosition X="0.2760" Y="0.2279" />
+            <PreSize X="0.3867" Y="0.0600" />
+            <FontResource Type="Normal" Path="font/ipag.ttf" Plist="" />
             <OutlineColor A="255" R="255" G="0" B="0" />
             <ShadowColor A="255" R="110" G="110" B="110" />
           </AbstractNodeData>
@@ -75,7 +76,7 @@
             <PrePosition X="0.1013" Y="0.0652" />
             <PreSize X="0.1147" Y="0.0172" />
           </AbstractNodeData>
-          <AbstractNodeData Name="Button_1" ActionTag="936874470" Tag="8" IconVisible="False" LeftMargin="228.0001" RightMargin="221.9999" TopMargin="883.9999" BottomMargin="350.0002" TouchEnable="True" FontSize="14" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
+          <AbstractNodeData Name="Button_1" ActionTag="936874470" Tag="8" IconVisible="False" LeftMargin="228.0001" RightMargin="221.9999" TopMargin="883.9998" BottomMargin="350.0002" TouchEnable="True" FontSize="32" ButtonText="Button" Scale9Enable="True" LeftEage="15" RightEage="15" TopEage="11" BottomEage="11" Scale9OriginX="15" Scale9OriginY="11" Scale9Width="16" Scale9Height="14" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="300.0000" Y="100.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="378.0001" Y="400.0002" />
@@ -83,6 +84,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5040" Y="0.2999" />
             <PreSize X="0.4000" Y="0.0750" />
+            <FontResource Type="Normal" Path="font/ipag.ttf" Plist="" />
             <TextColor A="255" R="65" G="65" B="70" />
             <DisabledFileData Type="Default" Path="Default/Button_Disable.png" Plist="" />
             <PressedFileData Type="Default" Path="Default/Button_Press.png" Plist="" />
