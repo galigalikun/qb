@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8709F4F5664D75FED5615AABA0EE1DEB58382005",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8709F4F5664D75FED5615AABA0EE1DEB58382005" : 0,
+    "6465E3866E1621BCE1B1C851B077125C50789334" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1CE1AB73-2F5A-462D-B4FD-2850751F5CEF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8709F4F5664D75FED5615AABA0EE1DEB58382005" : "qb\/",
+    "6465E3866E1621BCE1B1C851B077125C50789334" : "qb\/src\/packages\/promises\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "qb",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "frameworks\/runtime-src\/proj.ios_mac\/qb.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zserge\/lua-promises.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6465E3866E1621BCE1B1C851B077125C50789334"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:galigalikun\/qb.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8709F4F5664D75FED5615AABA0EE1DEB58382005"
+    }
+  ]
+}
