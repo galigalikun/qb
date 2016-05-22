@@ -11,8 +11,10 @@ function MainScene:onCreate()
     root:getChildByName("Text_1"):getVirtualRenderer():setLineHeight(20)
 
     self:promisetest()
-        :next(function(obj)
-            dump(obj)
+        :next(function(res)
+            printInfo(res)
+            local obj = json.decode(res)
+            root:getChildByName("Text_2"):setString(res)
         end,
         function()
             printInfo("reject")
@@ -34,8 +36,7 @@ function MainScene:promisetest()
     xhr:registerScriptHandler(function()
         dump(xhr)
         if xhr.readyState == 4 and (xhr.status >= 200 and xhr.status < 207) then
-            local obj = json.decode(xhr.response)
-            d:resolve(obj)
+            d:resolve(xhr.response)
         else
             d:reject()
         end
